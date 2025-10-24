@@ -16,7 +16,7 @@ function Projects({
                 <div className="project-item" key={index}>
                     <p className="bold-text">{item.name}</p>
                     <p>{item.description}</p>
-                    <p>
+                    <p className="date-text">
                         {item.startDate} - {item.endDate}
                     </p>
                     <a

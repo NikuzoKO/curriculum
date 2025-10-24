@@ -25,12 +25,19 @@ body {
         margin-top: 0;
         padding-left: 0.7em;
     }
+    a {
+        color: var(--primary-color);
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
     .container {
         width: 71vh;
         height: 100vh;
         margin: 0;
         display: flex;
-        overflow: hidden;
+        /* overflow: hidden; */
         background-color: var(--tertiary-color);
         .side-column {
             width: 30%;
@@ -87,9 +94,13 @@ body {
                     a {
                         margin: 0;
                         font-size: 0.7em;
+                        text-align: justify;
                     }
                     .bold-text {
                         font-weight: bold;
+                    }
+                    .date-text {
+                        font-size: 0.6em;
                     }
                 }
                 .contact-items {

@@ -14,7 +14,7 @@ function Education({
             <h3>Educación</h3>
             {education.map((item, index) => (
                 <div className="education-item" key={index}>
-                    <p>
+                    <p className="date-text">
                         {item.startDate} - {item.endDate}
                         {item.completed ? " - Finalizado" : " - En curso"}
                     </p>

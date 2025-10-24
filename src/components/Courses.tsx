@@ -13,7 +13,7 @@ function Courses({
             <h3>Cursos</h3>
             {courses.map((item, index) => (
                 <div className="course-item" key={index}>
-                    <p>
+                    <p className="date-text">
                         {item.startDate} - {item.endDate}
                     </p>
                     <p className="bold-text">{item.name}</p>

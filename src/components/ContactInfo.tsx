@@ -13,12 +13,15 @@ function ContactInfo({
             <h3>Información de contacto</h3>
             <div className="contact-info-items">
                 <p>
+                    Cel:{" "}
+                    <a href={`tel:${contactInfo.phone}`}>{contactInfo.phone}</a>
+                </p>
+                <p>
                     Correo:{" "}
                     <a href={`mailto:${contactInfo.email}`}>
                         {contactInfo.email}
                     </a>
                 </p>
-                <p>Cel: {contactInfo.phone}</p>
                 <p>
                     Linkedin:{" "}
                     <a
