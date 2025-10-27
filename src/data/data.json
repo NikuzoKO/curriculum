@@ -1,63 +1,71 @@
 {
     "name": "Niki Buela",
     "descriptions": [
-        "Soy una persona creativa y proactiva, muy buena resolviendo problemas, atenta, dispuesta a dar lo mejor de sí y ayudar a otros.",
-        "Busco pulir mis habilidades, aprender diversas tecnologías y mejorar mis aptitudes, tanto en lo personal como en el ámbito grupal."
+        "Desarrolladora Full-Stack Jr. con bases sólidas en JavaScript/TypeScript, React y Node.js. Aprendo rápido, escribo código claro y colaboro bien en equipos ágiles.",
+        "Experiencia creando SPAs y APIs REST con Express, integrando bases de datos (PostgreSQL/MySQL/MongoDB) y desplegando en Vercel. Enfocada en la calidad y la resolución de problemas."
     ],
     "picture": "/src/assets/picture.png",
     "pointers": {
+        "skills": {
+            "title": "Habilidades",
+            "items": [
+                "Limpieza y orden",
+                "Trabajo bajo presión",
+                "Resistencia física",
+                "Trato con clientes",
+                "Manejo de computadoras"
+            ],
+            "hidden": true
+        },
         "technologies": {
             "title": "Tecnologías",
             "items": [
                 "JavaScript (ES6+)",
                 "TypeScript",
-                "React.js",
-                "Node.js",
-                "HTML",
-                "CSS",
+                "React.js + Redux",
+                "Node.js + Express",
+                "HTML + CSS",
                 "JSON",
                 "Java",
-                "C#",
-                ".NET"
-            ]
+                "C# +.NET",
+                "DB: PostgreSQL / MySQL / MongoDB"
+            ],
+            "hidden": false
         },
         "tools": {
             "title": "Herramientas",
             "items": [
-                "Git",
-                "GitHub",
-                "VS Code",
-                "Cursor",
+                "Git +GitHub",
+                "Cursor + VSC",
                 "API REST",
-                "Scrum",
-                "Kanban",
-                "Jira",
-                "Miro",
-                "Trello",
-                "Figma",
-                "Photoshop",
-                "Illustrator"
-            ]
+                "Scrum / Kanban",
+                "Jira / Trello",
+                "Miro + Figma",
+                "Photoshop / Illustrator"
+            ],
+            "hidden": false
         },
         "softSkills": {
             "title": "Habilidades Blandas",
             "items": [
-                "Autodidacta",
-                "Creatividad",
+                "Trabajo en equipo",
+                "Comunicación",
+                "Organización",
                 "Proactividad",
+                "Adaptabilidad",
                 "Resiliencia",
                 "Resolución de problemas",
                 "Empatía",
-                "Comunicación",
-                "Trabajo en equipo",
-                "Organización",
-                "Adaptabilidad",
-                "Pensamiento crítico"
-            ]
+                "Pensamiento crítico",
+                "Autodidacta",
+                "Creatividad"
+            ],
+            "hidden": false
         },
         "languages": {
             "title": "Idiomas",
-            "items": ["Español", "Inglés", "Portugués"]
+            "items": ["Español", "Inglés", "Portugués"],
+            "hidden": false
         },
         "hobbies": {
             "title": "Hobbies",
@@ -67,35 +75,36 @@
                 "Escritura",
                 "Cine",
                 "Cocina"
-            ]
+            ],
+            "hidden": false
         }
     },
     "experience": [
         {
             "company": "Librería Pocho",
             "position": "Aprendiz en ventas",
-            "description": "Trabajé en la librería Pocho como aprendiz en ventas, donde aprendí a manejar el punto de venta, el manejo de inventario y el trato de clientes, en persona y por teléfono, en diferentes idiomas (español, inglés y portugués), además de la organización del espacio físico, tanto en el área de ventas como en el depósito.",
+            "description": "Atención al cliente (es/en/pt), manejo de dinero, inventario y organización de local y depósito.",
             "startDate": "12/2024",
             "endDate": "06/2025"
         },
         {
             "company": "Wirewood Store",
             "position": "Vendedora",
-            "description": "Trabajé en Wirewood Store como vendedora, donde vendí productos de colección y juegos de mesa, manejando el punto de venta, el manejo de inventario y el trato de clientes en persona. También atendí clientes en ferias y eventos locales en diferentes idiomas (ingles). A día de hoy realizo posts para la página de Instagram de la tienda.",
-            "startDate": "06/2025",
-            "endDate": "08/2025"
+            "description": "Ventas de coleccionables y juegos; caja (POS) e inventario; atención en ferias (inglés). Creo contenido para Instagram.",
+            "startDate": "12/2023",
+            "endDate": "12/2024"
         },
         {
             "company": "Grupo Humano",
             "position": "Operaria Zafral",
-            "description": "Trabajé en el Grupo Humano como operaria Zafral, donde realicé acondicionamiento secundario de productos farmacéuticos y hospitalarios, manejando el inventario y realizando la documentación de los productos, contabilizando los productos acondicionados y realizando los margenes de ganancia frente al granel. También operaba la máquina rotuladora de lotes y vencimientos.",
+            "description": "Acondicionamiento secundario de productos farmacéuticos y hospitalarios; inventario, documentación, conteo y cálculo de márgenes. Operación de rotuladora.",
             "startDate": "03/2023",
             "endDate": "12/2023"
         },
         {
             "company": "Acopharm",
             "position": "Operaria",
-            "description": "Trabajé en Acopharm como operaria, donde realicé acondicionamiento secundario de productos farmacéuticos y estéticos, manejando el inventario y realizando la documentación de los productos, contabilizando los productos acondicionados y realizando los margenes de ganancia frente al granel. También aquí aprendí, de manera autodidacta, y operé la máquina rotuladora de lotes y vencimientos.",
+            "description": "Acondicionamiento secundario de productos farmacéuticos y estéticos; inventario, documentación y conteo. Operación de rotuladora de lotes y vencimientos.",
             "startDate": "06/2021",
             "endDate": "10/2022"
         }
@@ -119,13 +128,13 @@
     "courses": [
         {
             "name": "Jóvenes a Programar",
-            "description": "Curso de programación básica, donde aprendí a programar en JavaScript, HTML, CSS, a usar Git y GitHub.",
+            "description": "Programación web básica: JavaScript, HTML, CSS; Git y GitHub.",
             "startDate": "2018",
             "endDate": "2018"
         },
         {
             "name": "Bootcamp de Desarrollo Web ",
-            "description": "Bootcamp de desarrollo web, donde aprendí a programar en JavaScript (ES6+), React.js con Redux, Node.js con Express, a usar Git y GitHub, API REST, Vercel, Supabase, PostgreSQL, MySQL, MongoDB y Bootstrap.",
+            "description": "Full‑stack web: JS (ES6+), React+Redux, Node+Express, APIs REST, DBs (PostgreSQL/MySQL/MongoDB), Vercel, Supabase, Bootstrap.",
             "startDate": "04/2024",
             "endDate": "07/2024"
         }
@@ -133,21 +142,21 @@
     "projects": [
         {
             "name": "Faro",
-            "description": "Landing page para una empresa de construcción, desarrollada en HTML, CSS y JavaScript, con un diseño responsive y una animación de scroll páginada para una mejor experiencia de usuario.",
+            "description": "Landing page responsive con scroll paginado. HTML, CSS, JavaScript.",
             "url": "https://faro.net.uy",
             "startDate": "9/2024",
             "endDate": "12/2024"
         },
         {
             "name": "Plantasia",
-            "description": "Proyecto final del Bootcamp de Desarrollo Web, desarrollado en React.js con Bootstrap, con un diseño responsive y un sistema de carrito de compras.",
+            "description": "E‑commerce en React + Bootstrap, responsive, con carrito de compras.",
             "url": "https://plantasia-shop.vercel.app",
             "startDate": "07/2024",
             "endDate": "07/2024"
         },
         {
             "name": "Hackflix",
-            "description": "Proyecto del Bootcamp de Desarrollo Web, desarrollado en React.js con Bootstrap, con un diseño responsive y un scroll infinito para una mejor experiencia de usuario.",
+            "description": "Catálogo tipo Netflix en React + Bootstrap, responsive, con scroll infinito.",
             "url": "https://nikuzomovies.vercel.app",
             "startDate": "10/2024",
             "endDate": "10/2024"
@@ -170,7 +179,7 @@
     "contactInfo": {
         "phone": "+598 98 121 505",
         "email": "nikibuela@gmail.com",
-        "linkedin": "https://www.linkedin.com/in/niki-buela",
-        "github": "https://github.com/nikuzoko"
+        "linkedin": "linkedin.com/in/niki-buela",
+        "github": "github.com/nikuzoko"
     }
 }

@@ -13,19 +13,31 @@ body {
     align-items: center;
     background-color: var(--secondary-color);
     font-family: "Zalando Sans SemiExpanded", sans-serif;
-    h1,
-    h3 {
-        margin: 10px 0;
+    h1 {
+        margin: 0;
+        margin-bottom: 1.3vh;
+        font-size: 3.5vh;
     }
-    ul,
+    h3 {
+        margin: 0.6vh 0;
+        margin-bottom: 0.3vh;
+        font-size: 1.7vh;
+    }
     p {
-        margin: 10px 0;
+        font-size: 1.3vh;
+        text-align: justify;
     }
     ul {
+        margin: 0.6vh 0;
         margin-top: 0;
-        padding-left: 0.7em;
+        padding-left: 1.6vh;
+        li {
+            font-size: 1.3vh;
+            margin-left: -0.3vh;
+        }
     }
     a {
+        font-size: 1.3vh;
         color: var(--primary-color);
         text-decoration: none;
         &:hover {
@@ -37,50 +49,46 @@ body {
         height: 100vh;
         margin: 0;
         display: flex;
-        /* overflow: hidden; */
+        overflow: hidden;
         background-color: var(--tertiary-color);
         .side-column {
             width: 30%;
+            padding-bottom: 2vh;
             color: var(--tertiary-color);
             background-color: var(--primary-color);
             .profile-picture-container {
-                padding: 10%;
+                padding: 2vh;
                 padding-bottom: 0;
                 img {
                     width: 100%;
-                    object-fit: cover;
                     border-radius: 50%;
                 }
             }
             .pointer {
-                margin: 10%;
+                margin: 2vh;
                 margin-top: 0;
                 margin-bottom: 0;
-                border-top: 2px solid var(--tertiary-color);
+                border-top: 0.25vh solid var(--tertiary-color);
                 h3 {
                     margin-bottom: 0;
-                }
-                li {
-                    font-size: 0.7em;
                 }
             }
         }
         .main-column {
             width: 70%;
             .name-container {
-                padding: 3.5%;
-                h1 {
-                    margin-top: 0;
-                }
+                padding: 2vh;
+                padding-bottom: 3%;
                 p {
-                    margin: 5px 0;
+                    font-size: 1.3vh;
+                    margin: 0.5vh 0;
                 }
             }
             .curriculum-container {
-                padding: 3.5%;
-                border-top: 2px solid var(--primary-color);
+                padding: 0 2vh;
+                padding-bottom: 2vh;
+                border-top: 0.3vh solid var(--primary-color);
                 h3 {
-                    margin-top: 0;
                     color: var(--primary-color);
                 }
                 .experience-item,
@@ -89,23 +97,44 @@ body {
                 .project-item,
                 .contact-item,
                 .contact-info-items {
-                    margin-bottom: 10px;
+                    margin-bottom: 0.6vh;
                     p,
                     a {
                         margin: 0;
-                        font-size: 0.7em;
-                        text-align: justify;
                     }
                     .bold-text {
                         font-weight: bold;
                     }
-                    .date-text {
-                        font-size: 0.6em;
+                }
+                .education-items {
+                    display: flex;
+                    justify-content: space-between;
+                    div {
+                        margin-bottom: 0;
+                        p {
+                            text-align: left;
+                        }
                     }
                 }
                 .contact-items {
                     display: flex;
-                    gap: 10%;
+                    .contact-item {
+                        margin-bottom: 0;
+                        width: 33.3333333333333333333333333333%;
+                    }
+                }
+                .contact-info-items {
+                    display: flex;
+                    justify-content: space-between;
+                    div {
+                        div {
+                            display: flex;
+                            gap: 1vh;
+                            a {
+                                text-align: right;
+                            }
+                        }
+                    }
                 }
             }
         }

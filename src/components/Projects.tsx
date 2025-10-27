@@ -14,19 +14,25 @@ function Projects({
             <h3>Proyectos</h3>
             {projects.map((item, index) => (
                 <div className="project-item" key={index}>
-                    <p className="bold-text">{item.name}</p>
-                    <p>{item.description}</p>
-                    <p className="date-text">
-                        {item.startDate} - {item.endDate}
+                    <p>
+                        <span className="bold-text">
+                            {item.name}
+                            {" | "}
+                            <a
+                                type="url"
+                                href={item.url}
+                                target="_blank"
+                                className="link-text"
+                            >
+                                Ver proyecto
+                            </a>
+                        </span>
+                        {" | "}
+                        <span className="date-text">
+                            {item.startDate} - {item.endDate}
+                        </span>
                     </p>
-                    <a
-                        href={item.url}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="button"
-                    >
-                        Ver proyecto
-                    </a>
+                    <p>{item.description}</p>
                 </div>
             ))}
         </>

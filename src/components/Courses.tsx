@@ -11,15 +11,20 @@ function Courses({
     return (
         <>
             <h3>Cursos</h3>
-            {courses.map((item, index) => (
-                <div className="course-item" key={index}>
-                    <p className="date-text">
-                        {item.startDate} - {item.endDate}
-                    </p>
-                    <p className="bold-text">{item.name}</p>
-                    <p>{item.description}</p>
-                </div>
-            ))}
+            <div className="course-items">
+                {courses.map((item, index) => (
+                    <div className="course-item" key={index}>
+                        <p>
+                            <span className="bold-text">{item.name}</span>
+                            {" | "}
+                            <span className="date-text">
+                                {item.startDate} - {item.endDate}
+                            </span>
+                        </p>
+                        <p>{item.description}</p>
+                    </div>
+                ))}
+            </div>
         </>
     );
 }

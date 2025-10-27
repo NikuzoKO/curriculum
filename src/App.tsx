@@ -16,20 +16,24 @@ function App() {
                     <img src={data.picture} alt="Picture of Niki Buela" />
                 </div>
                 {Object.entries(data.pointers).map(
-                    ([key, value]: [string, any]) => (
-                        <Pointer
-                            key={key}
-                            title={value.title}
-                            items={value.items}
-                        />
-                    )
+                    ([key, value]: [string, any]) =>
+                        value.hidden ? null : (
+                            <Pointer
+                                key={key}
+                                title={value.title}
+                                items={value.items}
+                            />
+                        )
                 )}
             </div>
             <div className="main-column">
                 <div className="name-container">
                     <h1 className="name">{data.name}</h1>
-                    <p className="description">{data.descriptions[0]}</p>
-                    <p className="description">{data.descriptions[1]}</p>
+                    {data.descriptions.map((description: string) => (
+                        <p className="description" key={description}>
+                            {description}
+                        </p>
+                    ))}
                 </div>
                 <div className="curriculum-container">
                     <Experience experience={data.experience} />

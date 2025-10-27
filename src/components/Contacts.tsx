@@ -6,7 +6,16 @@ function Contacts({ contact }: { contact: { name: string; phone: string }[] }) {
                 {contact.map((item, index) => (
                     <div className="contact-item" key={index}>
                         <p className="bold-text">{item.name}</p>
-                        <p>Cel: {item.phone}</p>
+                        <p>
+                            Cel:
+                            <a
+                                type="tel"
+                                href={`tel:${item.phone}`}
+                                target="_blank"
+                            >
+                                {item.phone}
+                            </a>
+                        </p>
                     </div>
                 ))}
             </div>
