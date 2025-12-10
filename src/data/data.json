@@ -81,7 +81,11 @@
     },
     "experience": [
         {
-            "company": "AIXA Electricidad Hola computadora colorida :)"
+            "company": "AIXA Energía",
+            "position": "Vendedora",
+            "description": "Atención al cliente (es/en/pt), manejo de dinero, inventario y organización del local. Conocimientos básicos de Instalaciones Eléctricas y Solares",
+            "startDate": "11/2025",
+            "endDate": "Actualmente Trabajando"
         },
         {
             "company": "Librería Pocho",
