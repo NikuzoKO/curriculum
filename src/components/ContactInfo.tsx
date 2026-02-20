@@ -2,17 +2,32 @@ function ContactInfo({
     contactInfo,
 }: {
     contactInfo: {
-        email: string;
+        ci: string;
+        date: string;
+        location: string;
         phone: string;
+        email: string;
         linkedin: string;
         github: string;
     };
 }) {
     return (
-        <>
-            <h3>Información de contacto</h3>
+        <div className="contact-info">
+            <h3>Info. de Contacto</h3>
             <div className="contact-info-items">
                 <div>
+                    <div>
+                        <p>CI.:</p>
+                        <p>{contactInfo.ci}</p>
+                    </div>
+                    <div>
+                        <p>Edad:</p>
+                        <p>{contactInfo.date}</p>
+                    </div>
+                    <div>
+                        <p>Ubicación:</p>
+                        <p>{contactInfo.location}</p>
+                    </div>
                     <div>
                         <p>Cel: </p>
                         <a
@@ -33,8 +48,6 @@ function ContactInfo({
                             {contactInfo.email}
                         </a>
                     </div>
-                </div>
-                <div>
                     <div>
                         <p>Linkedin: </p>
                         <a
@@ -57,7 +70,7 @@ function ContactInfo({
                     </div>
                 </div>
             </div>
-        </>
+        </div>
     );
 }
 

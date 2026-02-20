@@ -5,7 +5,7 @@ import Experience from "./components/Experience";
 import Education from "./components/Education";
 import Courses from "./components/Courses";
 import Projects from "./components/Projects";
-import Contacts from "./components/Contacts";
+import Referers from "./components/Referers";
 import ContactInfo from "./components/ContactInfo";
 
 function App() {
@@ -15,6 +15,16 @@ function App() {
                 <div className="profile-picture-container">
                     <img src={data.picture} alt="Picture of Niki Buela" />
                 </div>
+                <ContactInfo
+                    contactInfo={
+                        data.contactInfo as {
+                            email: string;
+                            phone: string;
+                            linkedin: string;
+                            github: string;
+                        }
+                    }
+                />
                 {Object.entries(data.pointers).map(
                     ([key, value]: [string, any]) =>
                         value.hidden ? null : (
@@ -23,7 +33,7 @@ function App() {
                                 title={value.title}
                                 items={value.items}
                             />
-                        )
+                        ),
                 )}
             </div>
             <div className="main-column">
@@ -40,17 +50,7 @@ function App() {
                     <Education education={data.education} />
                     <Courses courses={data.courses} />
                     <Projects projects={data.projects} />
-                    <Contacts contact={data.contacts} />
-                    <ContactInfo
-                        contactInfo={
-                            data.contactInfo as {
-                                email: string;
-                                phone: string;
-                                linkedin: string;
-                                github: string;
-                            }
-                        }
-                    />
+                    <Referers referers={data.referers} />
                 </div>
             </div>
         </div>

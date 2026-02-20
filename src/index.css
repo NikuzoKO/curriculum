@@ -57,11 +57,46 @@ body {
             color: var(--tertiary-color);
             background-color: var(--primary-color);
             .profile-picture-container {
+                width: 17.5vh;
+                height: 17.5vh;
                 padding: 2vh;
                 padding-bottom: 0;
                 img {
                     width: 100%;
                     border-radius: 50%;
+                }
+            }
+            .contact-info {
+                margin: 2vh;
+                margin-top: 0;
+                margin-bottom: 0.6vh;
+                border-top: 0.25vh solid var(--tertiary-color);
+                h3 {
+                    margin-bottom: 0;
+                }
+                .contact-info-items {
+                    display: flex;
+                    justify-content: space-between;
+                    div {
+                        div {
+                            padding-left: 0.3vh;
+                            display: flex;
+                            justify-content: space-between;
+                            flex-wrap: wrap;
+                            p {
+                                margin: 0;
+                            }
+                            a {
+                                margin-left: auto;
+                                color: var(--tertiary-color);
+                                text-align: right;
+                                text-decoration: underline;
+                                &:hover {
+                                    text-decoration: none;
+                                }
+                            }
+                        }
+                    }
                 }
             }
             .pointer {
@@ -77,14 +112,17 @@ body {
         .main-column {
             width: 70%;
             .name-container {
+                height: 16vh;
                 padding: 2vh;
-                padding-bottom: 3%;
+                padding-bottom: 1.5vh;
                 p {
                     font-size: 1.3vh;
                     margin: 0.5vh 0;
                 }
             }
             .curriculum-container {
+                width: 46vh;
+                height: 79vh;
                 padding: 0 2vh;
                 padding-bottom: 2vh;
                 border-top: 0.3vh solid var(--primary-color);
@@ -116,23 +154,14 @@ body {
                         }
                     }
                 }
-                .contact-items {
+                .referers {
                     display: flex;
-                    .contact-item {
-                        margin-bottom: 0;
-                        width: 33.3333333333333333333333333333%;
-                    }
-                }
-                .contact-info-items {
-                    display: flex;
-                    justify-content: space-between;
-                    div {
-                        div {
-                            display: flex;
-                            gap: 1vh;
-                            a {
-                                text-align: right;
-                            }
+                    flex-wrap: wrap;
+                    .reference {
+                        margin-bottom: 0.6vh;
+                        width: 50%;
+                        p {
+                            margin: 0;
                         }
                     }
                 }

@@ -1,22 +1,20 @@
 {
     "name": "Niki Buela",
     "descriptions": [
-        "Desarrolladora Full-Stack Jr. con bases sólidas en JavaScript/TypeScript, React y Node.js. Aprendo rápido, escribo código claro y colaboro bien en equipos ágiles.",
-        "Experiencia creando SPAs y APIs REST con Express, integrando bases de datos (PostgreSQL/MySQL/MongoDB) y desplegando en Vercel. Enfocada en la calidad y la resolución de problemas."
+        "Desarrollador Jr. con bases sólidas en JavaScript/TypeScript, React y Node.js. Soy de aprendizaje rápido, escribo código claro y colaboro bien en equipos ágiles.",
+        "Tengo experiencia creando SPAs y APIs REST con Express, integrando bases de datos (PostgreSQL/MySQL/MongoDB) y desplegando en Vercel. Me enfoco en la calidad y la resolución de problemas."
     ],
     "picture": "/src/assets/picture.png",
+    "contactInfo": {
+        "ci": "5.124.129-9",
+        "date": "29/03/2001",
+        "location": "Piriápolis, Uruguay",
+        "phone": "+598 98 121 505",
+        "email": "nikibuela@gmail.com",
+        "linkedin": "linkedin.com/in/niki-buela",
+        "github": "github.com/nikuzoko"
+    },
     "pointers": {
-        "skills": {
-            "title": "Habilidades",
-            "items": [
-                "Limpieza y orden",
-                "Trabajo bajo presión",
-                "Resistencia física",
-                "Trato con clientes",
-                "Manejo de computadoras"
-            ],
-            "hidden": true
-        },
         "technologies": {
             "title": "Tecnologías",
             "items": [
@@ -27,7 +25,7 @@
                 "HTML + CSS",
                 "JSON",
                 "Java",
-                "C# +.NET",
+                "C# + .NET",
                 "DB: PostgreSQL / MySQL / MongoDB"
             ],
             "hidden": false
@@ -66,23 +64,12 @@
             "title": "Idiomas",
             "items": ["Español", "Inglés", "Portugués"],
             "hidden": false
-        },
-        "hobbies": {
-            "title": "Hobbies",
-            "items": [
-                "Desarrollo de videojuegos",
-                "Producción músical",
-                "Escritura",
-                "Cine",
-                "Cocina"
-            ],
-            "hidden": false
         }
     },
     "experience": [
         {
             "company": "AIXA Energía",
-            "position": "Vendedora",
+            "position": "Vendedor",
             "description": "Atención al cliente (es/en/pt), manejo de dinero, inventario y organización del local. Conocimientos básicos de Instalaciones Eléctricas y Solares",
             "startDate": "11/2025",
             "endDate": "01/2026"
@@ -96,21 +83,21 @@
         },
         {
             "company": "Wirewood Store",
-            "position": "Vendedora",
-            "description": "Ventas de coleccionables y juegos; caja (POS) e inventario; atención en ferias (inglés). Creo contenido para Instagram.",
+            "position": "Vendedor",
+            "description": "Ventas de coleccionables y juegos; caja (POS) e inventario; atención en ferias (inglés). Creación de contenido para Instagram.",
             "startDate": "12/2023",
             "endDate": "12/2024"
         },
         {
             "company": "Grupo Humano",
-            "position": "Operaria Zafral",
+            "position": "Operario Zafral",
             "description": "Acondicionamiento secundario de productos farmacéuticos y hospitalarios; inventario, documentación, conteo y cálculo de márgenes. Operación de rotuladora.",
             "startDate": "03/2023",
             "endDate": "12/2023"
         },
         {
             "company": "Acopharm",
-            "position": "Operaria",
+            "position": "Operario",
             "description": "Acondicionamiento secundario de productos farmacéuticos y estéticos; inventario, documentación y conteo. Operación de rotuladora de lotes y vencimientos.",
             "startDate": "06/2021",
             "endDate": "10/2022"
@@ -169,7 +156,7 @@
             "endDate": "10/2024"
         }
     ],
-    "contacts": [
+    "referers": [
         {
             "name": "Diego Costa",
             "phone": "+598 99 507 826"
@@ -181,12 +168,21 @@
         {
             "name": "Diana Spatakis",
             "phone": "+598 91 800 363"
+        },
+        {
+            "name": "Fernando Panizza",
+            "phone": "+598 96 700 856"
         }
     ],
-    "contactInfo": {
-        "phone": "+598 98 121 505",
-        "email": "nikibuela@gmail.com",
-        "linkedin": "linkedin.com/in/niki-buela",
-        "github": "github.com/nikuzoko"
+    "hobbies": {
+        "title": "Hobbies",
+        "items": [
+            "Desarrollo de videojuegos",
+            "Producción músical",
+            "Escritura",
+            "Cine",
+            "Cocina"
+        ],
+        "hidden": true
     }
 }

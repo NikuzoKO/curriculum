@@ -1,10 +1,14 @@
-function Contacts({ contact }: { contact: { name: string; phone: string }[] }) {
+function Referers({
+    referers,
+}: {
+    referers: { name: string; phone: string }[];
+}) {
     return (
         <>
-            <h3>Contactos</h3>
-            <div className="contact-items">
-                {contact.map((item, index) => (
-                    <div className="contact-item" key={index}>
+            <h3>Referencias</h3>
+            <div className="referers">
+                {referers.map((item, index) => (
+                    <div className="reference" key={index}>
                         <p className="bold-text">{item.name}</p>
                         <p>
                             Cel:
@@ -23,4 +27,4 @@ function Contacts({ contact }: { contact: { name: string; phone: string }[] }) {
     );
 }
 
-export default Contacts;
+export default Referers;
