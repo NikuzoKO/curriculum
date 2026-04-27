@@ -35,6 +35,7 @@ function App() {
                         data.contactInfo as {
                             ci: string;
                             date: string;
+                            location: string;
                             email: string;
                             phone: string;
                             linkedin: string;
