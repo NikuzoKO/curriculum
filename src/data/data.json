@@ -1,9 +1,15 @@
 {
-    "name": "Niki Buela",
-    "descriptions": [
-        "Desarrollador Jr. con bases sólidas en JavaScript/TypeScript, React y Node.js. Soy de aprendizaje rápido, escribo código claro y colaboro bien en equipos ágiles.",
-        "Tengo experiencia creando SPAs y APIs REST con Express, integrando bases de datos (PostgreSQL/MySQL/MongoDB) y desplegando en Vercel. Me enfoco en la calidad y la resolución de problemas."
-    ],
+    "name": "Nicolás Buela",
+    "descriptions": {
+        "es": [
+            "Desarrollador Full Stack con experiencia real en proyectos productivos. Especializado en JavaScript/TypeScript, React y Node.js, con manejo de PHP/Laravel, C# y múltiples bases de datos.",
+            "Entrego código claro, mantenible y orientado a resultados. Trabajo bien en equipos ágiles y me adapto rápido a nuevas tecnologías y contextos."
+        ],
+        "en": [
+            "Full Stack Developer with real-world production experience. Specialized in JavaScript/TypeScript, React and Node.js, with hands-on PHP/Laravel, C# and multiple database systems.",
+            "I write clean, maintainable code and deliver results. I thrive in agile teams and adapt quickly to new technologies and contexts."
+        ]
+    },
     "picture": "/src/assets/picture.png",
     "contactInfo": {
         "ci": "5.124.129-9",
@@ -16,104 +22,150 @@
     },
     "pointers": {
         "technologies": {
-            "title": "Tecnologías",
+            "title": {
+                "es": "Tecnologías",
+                "en": "Technologies"
+            },
             "items": [
                 "JavaScript (ES6+)",
                 "TypeScript",
                 "React.js + Redux",
                 "Node.js + Express",
-                "HTML + CSS",
-                "JSON",
-                "Java",
+                "PHP + Laravel",
                 "C# + .NET",
-                "DB: PostgreSQL / MySQL / MongoDB"
+                "HTML + CSS",
+                "PostgreSQL / MySQL / MongoDB",
+                "Docker"
             ],
             "hidden": false
         },
         "tools": {
-            "title": "Herramientas",
+            "title": {
+                "es": "Herramientas",
+                "en": "Tools"
+            },
             "items": [
-                "Git +GitHub",
-                "Cursor + VSC",
-                "API REST",
+                "Git + GitHub",
+                "VSCode / Cursor",
+                "REST APIs",
                 "Scrum / Kanban",
                 "Jira / Trello",
-                "Miro + Figma",
+                "Figma / Miro",
                 "Photoshop / Illustrator"
             ],
             "hidden": false
         },
         "softSkills": {
-            "title": "Habilidades Blandas",
-            "items": [
-                "Trabajo en equipo",
-                "Comunicación",
-                "Organización",
-                "Proactividad",
-                "Adaptabilidad",
-                "Resiliencia",
-                "Resolución de problemas",
-                "Empatía",
-                "Pensamiento crítico",
-                "Autodidacta",
-                "Creatividad"
-            ],
+            "title": {
+                "es": "Habilidades Blandas",
+                "en": "Soft Skills"
+            },
+            "items": {
+                "es": [
+                    "Trabajo en equipo",
+                    "Comunicación",
+                    "Organización",
+                    "Proactividad",
+                    "Adaptabilidad",
+                    "Resiliencia",
+                    "Resolución de problemas",
+                    "Pensamiento crítico",
+                    "Autodidacta",
+                    "Creatividad"
+                ],
+                "en": [
+                    "Team work",
+                    "Communication",
+                    "Organization",
+                    "Proactivity",
+                    "Adaptability",
+                    "Resilience",
+                    "Problem solving",
+                    "Critical thinking",
+                    "Self-taught",
+                    "Creativity"
+                ]
+            },
             "hidden": false
         },
         "languages": {
-            "title": "Idiomas",
-            "items": ["Español", "Inglés", "Portugués"],
+            "title": {
+                "es": "Idiomas",
+                "en": "Languages"
+            },
+            "items": {
+                "es": [
+                    "Español (nativo)",
+                    "Inglés (intermedio)",
+                    "Portugués (intermedio)"
+                ],
+                "en": [
+                    "Spanish (native)",
+                    "English (intermediate)",
+                    "Portuguese (intermediate)"
+                ]
+            },
             "hidden": false
         }
     },
     "experience": [
         {
             "company": "AIXA Energía",
-            "position": "Vendedor",
-            "description": "Atención al cliente (es/en/pt), manejo de dinero, inventario y organización del local. Conocimientos básicos de Instalaciones Eléctricas y Solares",
+            "position": {
+                "es": "Vendedor",
+                "en": "Sales Representative"
+            },
+            "description": {
+                "es": "Atención al cliente trilingüe (es/en/pt), manejo de caja, inventario y organización del local. Conocimientos básicos de instalaciones eléctricas y solares.",
+                "en": "Trilingual customer service (es/en/pt), cash handling, inventory management and store organization. Basic knowledge of electrical and solar installations."
+            },
             "startDate": "11/2025",
             "endDate": "01/2026"
         },
         {
             "company": "Librería Pocho",
-            "position": "Aprendiz en ventas",
-            "description": "Atención al cliente (es/en/pt), manejo de dinero, inventario y organización de local y depósito.",
+            "position": {
+                "es": "Aprendiz en ventas",
+                "en": "Sales Apprentice"
+            },
+            "description": {
+                "es": "Atención al cliente trilingüe (es/en/pt), manejo de caja, inventario y organización de local y depósito.",
+                "en": "Trilingual customer service (es/en/pt), cash handling, inventory and warehouse organization."
+            },
             "startDate": "12/2024",
             "endDate": "06/2025"
         },
         {
             "company": "Wirewood Store",
-            "position": "Vendedor",
-            "description": "Ventas de coleccionables y juegos; caja (POS) e inventario; atención en ferias (inglés). Creación de contenido para Instagram.",
+            "position": {
+                "es": "Vendedor",
+                "en": "Sales Representative"
+            },
+            "description": {
+                "es": "Ventas de coleccionables y juegos, caja (POS), inventario y atención en ferias (inglés). Creación de contenido para Instagram.",
+                "en": "Collectibles and games sales, POS cash handling, inventory management, fair attendance (English). Instagram content creation."
+            },
             "startDate": "12/2023",
             "endDate": "12/2024"
-        },
-        {
-            "company": "Grupo Humano",
-            "position": "Operario Zafral",
-            "description": "Acondicionamiento secundario de productos farmacéuticos y hospitalarios; inventario, documentación, conteo y cálculo de márgenes. Operación de rotuladora.",
-            "startDate": "03/2023",
-            "endDate": "12/2023"
-        },
-        {
-            "company": "Acopharm",
-            "position": "Operario",
-            "description": "Acondicionamiento secundario de productos farmacéuticos y estéticos; inventario, documentación y conteo. Operación de rotuladora de lotes y vencimientos.",
-            "startDate": "06/2021",
-            "endDate": "10/2022"
         }
     ],
     "education": [
         {
             "institution": "Escuela Superior de Informática",
-            "degree": "Bachiller en Informática",
+            "degree": {
+                "es": "Bachiller en Informática (en curso)",
+                "en": "IT Bachelor's Degree (in progress)"
+            },
             "completed": false,
             "startDate": "2017",
             "endDate": "2024"
         },
         {
             "institution": "Escuela de Artes y Artesanías, Pedro Figari",
-            "degree": "Bachiller Tecnológico en Música - Asistente Técnico en Música",
+            "degree": {
+                "es": "Bachiller Tecnológico en Música - Asistente Técnico en Música",
+                "en": "Music Technology Bachelor - Music Technical Assistant"
+            },
             "completed": true,
             "startDate": "2019",
             "endDate": "2021"
@@ -122,38 +174,63 @@
     "courses": [
         {
             "name": "Jóvenes a Programar",
-            "description": "Programación web básica: JavaScript, HTML, CSS; Git y GitHub.",
+            "description": {
+                "es": "Programación web básica: JavaScript, HTML, CSS, Git y GitHub.",
+                "en": "Basic web programming: JavaScript, HTML, CSS, Git and GitHub."
+            },
             "startDate": "2018",
             "endDate": "2018"
         },
         {
-            "name": "Bootcamp de Desarrollo Web ",
-            "description": "Full‑stack web: JS (ES6+), React+Redux, Node+Express, APIs REST, DBs (PostgreSQL/MySQL/MongoDB), Vercel, Supabase, Bootstrap.",
+            "name": "Bootcamp de Desarrollo Web",
+            "description": {
+                "es": "Full-stack web: JS (ES6+), React+Redux, Node+Express, APIs REST, DBs (PostgreSQL/MySQL/MongoDB), Vercel, Supabase, Bootstrap.",
+                "en": "Full-stack web: JS (ES6+), React+Redux, Node+Express, REST APIs, DBs (PostgreSQL/MySQL/MongoDB), Vercel, Supabase, Bootstrap."
+            },
             "startDate": "04/2024",
             "endDate": "07/2024"
         }
     ],
     "projects": [
         {
-            "name": "Faro",
-            "description": "Landing page responsive con scroll paginado. HTML, CSS, JavaScript.",
+            "name": "Faro Constructora",
+            "description": {
+                "es": "Sitio web fullstack para empresa constructora real. Frontend en React con carrusel dinámico y scroll paginado. Backend en Laravel con panel de administración para gestión de contenido, imágenes y proyectos. Desplegado en producción en cPanel.",
+                "en": "Fullstack website for a real construction company. React frontend with dynamic carousel and paginated scroll. Laravel API backend with admin panel for content, image and project management. Deployed to production on cPanel."
+            },
             "url": "https://faro.net.uy",
-            "startDate": "9/2024",
-            "endDate": "12/2024"
+            "startDate": "09/2024",
+            "endDate": "Present"
         },
         {
-            "name": "Plantasia",
-            "description": "E‑commerce en React + Bootstrap, responsive, con carrito de compras.",
-            "url": "https://plantasia-shop.vercel.app",
+            "name": "Stock Dashboard",
+            "description": {
+                "es": "Aplicación fullstack de seguimiento de acciones bursátiles. Frontend en React con búsqueda y listado en tiempo real. Backend en Laravel con autenticación via Sanctum (registro, login, recuperación de contraseña).",
+                "en": "Fullstack stock market tracking application. React frontend with real-time search and listing. Laravel API backend with Sanctum authentication (register, login, password recovery)."
+            },
+            "url": "https://github.com/NikuzoKo/stockDashboardFront",
+            "startDate": "01/2025",
+            "endDate": "01/2025"
+        },
+        {
+            "name": "Movies",
+            "description": {
+                "es": "Catálogo de películas en React con integración a The Movie Database API, scroll infinito y diseño responsive.",
+                "en": "React movie catalog integrating The Movie Database API, with infinite scroll and responsive design."
+            },
+            "url": "https://nikuzomovies.vercel.app",
             "startDate": "07/2024",
             "endDate": "07/2024"
         },
         {
-            "name": "Hackflix",
-            "description": "Catálogo tipo Netflix en React + Bootstrap, responsive, con scroll infinito.",
-            "url": "https://nikuzomovies.vercel.app",
-            "startDate": "10/2024",
-            "endDate": "10/2024"
+            "name": "Plantasia",
+            "description": {
+                "es": "E-commerce en React + Bootstrap, responsive, con carrito de compras funcional.",
+                "en": "React + Bootstrap e-commerce with functional shopping cart and responsive design."
+            },
+            "url": "",
+            "startDate": "07/2024",
+            "endDate": "07/2024"
         }
     ],
     "referers": [
@@ -173,16 +250,5 @@
             "name": "Fernando Panizza",
             "phone": "+598 96 700 856"
         }
-    ],
-    "hobbies": {
-        "title": "Hobbies",
-        "items": [
-            "Desarrollo de videojuegos",
-            "Producción músical",
-            "Escritura",
-            "Cine",
-            "Cocina"
-        ],
-        "hidden": true
-    }
+    ]
 }
