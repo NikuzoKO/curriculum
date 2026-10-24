@@ -15,8 +15,8 @@
         "ci": "5.124.129-9",
         "date": "29/03/2001",
         "location": "Piriápolis, Uruguay",
-        "phone": "+598 98 121 505",
-        "email": "nikibuela@gmail.com",
+        "phone": "+598 098 121 505",
+        "email": "buelaniki@gmail.com",
         "linkedin": "linkedin.com/in/niki-buela",
         "github": "github.com/nikuzoko"
     },
@@ -110,6 +110,19 @@
     },
     "experience": [
         {
+            "company": "Montevideo College",
+            "position": {
+                "es": "Profesor de Informática y Robótica",
+                "en": "Computer science and robotics professor"
+            },
+            "description": {
+                "es": "Manejo de grupos, planificación, ejecución y evaluación de clases, pensamiento crítico, manejo de micro:bit con make code.",
+                "en": "Group management, lesson planning, lesson delivery and assessment, critical thinking, micro:bit programming with MakeCode."
+            },
+            "startDate": "07/2026",
+            "endDate": "Actualmente trabajando"
+        },
+        {
             "company": "AIXA Energía",
             "position": {
                 "es": "Vendedor",
@@ -134,19 +147,6 @@
             },
             "startDate": "12/2024",
             "endDate": "06/2025"
-        },
-        {
-            "company": "Wirewood Store",
-            "position": {
-                "es": "Vendedor",
-                "en": "Sales Representative"
-            },
-            "description": {
-                "es": "Ventas de coleccionables y juegos, caja (POS), inventario y atención en ferias (inglés). Creación de contenido para Instagram.",
-                "en": "Collectibles and games sales, POS cash handling, inventory management, fair attendance (English). Instagram content creation."
-            },
-            "startDate": "12/2023",
-            "endDate": "12/2024"
         }
     ],
     "education": [
@@ -200,7 +200,7 @@
             },
             "url": "https://faro.net.uy",
             "startDate": "09/2024",
-            "endDate": "Present"
+            "endDate": "10/2024"
         },
         {
             "name": "Stock Dashboard",
@@ -219,16 +219,6 @@
                 "en": "React movie catalog integrating The Movie Database API, with infinite scroll and responsive design."
             },
             "url": "https://nikuzomovies.vercel.app",
-            "startDate": "07/2024",
-            "endDate": "07/2024"
-        },
-        {
-            "name": "Plantasia",
-            "description": {
-                "es": "E-commerce en React + Bootstrap, responsive, con carrito de compras funcional.",
-                "en": "React + Bootstrap e-commerce with functional shopping cart and responsive design."
-            },
-            "url": "",
             "startDate": "07/2024",
             "endDate": "07/2024"
         }

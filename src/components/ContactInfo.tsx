@@ -21,15 +21,15 @@ function ContactInfo({
                         <p>{contactInfo.ci}</p>
                     </div>
                     <div>
-                        <p>Edad:</p>
+                        <p>Nacimiento:</p>
                         <p>{contactInfo.date}</p>
                     </div>
                     <div>
-                        <p>Ubicación:</p>
+                        <p>Ubi.:</p>
                         <p>{contactInfo.location}</p>
                     </div>
                     <div>
-                        <p>Cel: </p>
+                        <p>Cel.: </p>
                         <a
                             type="tel"
                             href={`tel:${contactInfo.phone}`}
@@ -39,7 +39,7 @@ function ContactInfo({
                         </a>
                     </div>
                     <div>
-                        <p>Correo: </p>
+                        <p>Mail: </p>
                         <a
                             type="email"
                             href={`mailto:${contactInfo.email}`}
@@ -55,7 +55,7 @@ function ContactInfo({
                             href={`https://${contactInfo.linkedin}`}
                             target="_blank"
                         >
-                            {contactInfo.linkedin}
+			 Niki Buela
                         </a>
                     </div>
                     <div>
@@ -65,7 +65,7 @@ function ContactInfo({
                             href={`https://${contactInfo.github}`}
                             target="_blank"
                         >
-                            {contactInfo.github}
+                            NikuzoKO
                         </a>
                     </div>
                 </div>
