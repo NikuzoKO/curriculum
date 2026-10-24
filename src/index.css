@@ -4,10 +4,19 @@
     --primary-color: #50a;
     --secondary-color: #0e0e0e;
     --tertiary-color: #fff;
+    /* 1% of the sheet height: fits the A4 sheet (71:100) inside the screen */
+    --u: min(1vh, 1.408vw);
+}
+
+@supports (height: 1dvh) {
+    :root {
+        --u: min(1dvh, 1.408vw);
+    }
 }
 
 body {
     margin: 0;
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,29 +24,29 @@ body {
     font-family: "Zalando Sans SemiExpanded", sans-serif;
     h1 {
         margin: 0;
-        margin-bottom: 1.3vh;
-        font-size: 3.5vh;
+        margin-bottom: calc(1.3 * var(--u));
+        font-size: calc(3.5 * var(--u));
     }
     h3 {
-        margin: 0.6vh 0;
-        margin-bottom: 0.3vh;
-        font-size: 1.7vh;
+        margin: calc(0.6 * var(--u)) 0;
+        margin-bottom: calc(0.3 * var(--u));
+        font-size: calc(1.7 * var(--u));
     }
     p {
-        font-size: 1.3vh;
+        font-size: calc(1.3 * var(--u));
         text-align: justify;
     }
     ul {
-        margin: 0.6vh 0;
+        margin: calc(0.6 * var(--u)) 0;
         margin-top: 0;
-        padding-left: 1.6vh;
+        padding-left: calc(1.6 * var(--u));
         li {
-            font-size: 1.3vh;
-            margin-left: -0.3vh;
+            font-size: calc(1.3 * var(--u));
+            margin-left: calc(-0.3 * var(--u));
         }
     }
     a {
-        font-size: 1.3vh;
+        font-size: calc(1.3 * var(--u));
         color: var(--primary-color);
         text-decoration: none;
         &:hover {
@@ -45,21 +54,21 @@ body {
         }
     }
     .container {
-        width: 71vh;
-        height: 100vh;
+        width: calc(71 * var(--u));
+        height: calc(100 * var(--u));
         margin: 0;
         display: flex;
         overflow: hidden;
         background-color: var(--tertiary-color);
         .side-column {
             width: 30%;
-            padding-bottom: 2vh;
+            padding-bottom: calc(2 * var(--u));
             color: var(--tertiary-color);
             background-color: var(--primary-color);
             .profile-picture-container {
-                width: 17.5vh;
-                height: 17.5vh;
-                padding: 2vh;
+                width: calc(17.5 * var(--u));
+                height: calc(17.5 * var(--u));
+                padding: calc(2 * var(--u));
                 padding-bottom: 0;
                 img {
                     width: 100%;
@@ -67,10 +76,10 @@ body {
                 }
             }
             .contact-info {
-                margin: 2vh;
+                margin: calc(2 * var(--u));
                 margin-top: 0;
-                margin-bottom: 0.6vh;
-                border-top: 0.25vh solid var(--tertiary-color);
+                margin-bottom: calc(0.6 * var(--u));
+                border-top: calc(0.25 * var(--u)) solid var(--tertiary-color);
                 h3 {
                     margin-bottom: 0;
                 }
@@ -79,7 +88,7 @@ body {
                     justify-content: space-between;
                     div {
                         div {
-                            padding-left: 0.3vh;
+                            padding-left: calc(0.3 * var(--u));
                             display: flex;
                             justify-content: space-between;
                             flex-wrap: wrap;
@@ -100,10 +109,10 @@ body {
                 }
             }
             .pointer {
-                margin: 2vh;
+                margin: calc(2 * var(--u));
                 margin-top: 0;
                 margin-bottom: 0;
-                border-top: 0.25vh solid var(--tertiary-color);
+                border-top: calc(0.25 * var(--u)) solid var(--tertiary-color);
                 h3 {
                     margin-bottom: 0;
                 }
@@ -112,20 +121,20 @@ body {
         .main-column {
             width: 70%;
             .name-container {
-                height: 16vh;
-                padding: 2vh;
-                padding-bottom: 1.5vh;
+                height: calc(16 * var(--u));
+                padding: calc(2 * var(--u));
+                padding-bottom: calc(1.5 * var(--u));
                 p {
-                    font-size: 1.3vh;
-                    margin: 0.5vh 0;
+                    font-size: calc(1.3 * var(--u));
+                    margin: calc(0.5 * var(--u)) 0;
                 }
             }
             .curriculum-container {
-                width: 46vh;
-                height: 79vh;
-                padding: 0 2vh;
-                padding-bottom: 2vh;
-                border-top: 0.3vh solid var(--primary-color);
+                width: calc(46 * var(--u));
+                height: calc(79 * var(--u));
+                padding: 0 calc(2 * var(--u));
+                padding-bottom: calc(2 * var(--u));
+                border-top: calc(0.3 * var(--u)) solid var(--primary-color);
                 h3 {
                     color: var(--primary-color);
                 }
@@ -135,7 +144,7 @@ body {
                 .project-item,
                 .contact-item,
                 .contact-info-items {
-                    margin-bottom: 0.6vh;
+                    margin-bottom: calc(0.6 * var(--u));
                     p,
                     a {
                         margin: 0;
@@ -158,7 +167,7 @@ body {
                     display: flex;
                     flex-wrap: wrap;
                     .reference {
-                        margin-bottom: 0.6vh;
+                        margin-bottom: calc(0.6 * var(--u));
                         width: 50%;
                         p {
                             margin: 0;
